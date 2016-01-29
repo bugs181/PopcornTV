@@ -6,7 +6,7 @@ This project was adapted from the PopcornTV project which is now discontinued. F
 PopcornTV was a simple application that allowed an AppleTV to stream Movies and TV shows directly from torrents. It pulls from [yts.to]() as well as the Popcorn Time TV API to allow users to watch most Movies and TV Shows Instantly.
 
 This project is useful only to those running AppleTV 3 or older. <br>
-For AppleTV 4 see the [MediaChannel App](https://github.com/bugs181/AppleTV4-MediaChannel) (Coming soon!)
+For AppleTV 4 see the tvOS [MediaChannel App](https://github.com/bugs181/tvOS) (Coming soon!)
 
 ## How it worked
 
