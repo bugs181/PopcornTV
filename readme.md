@@ -3,14 +3,14 @@ This project was adapted from the PopcornTV project which is now discontinued. F
 
 # What was PopcornTV?
 
-PopcornTV was a simple application that allowed an AppleTV to play stream Movies and TV shows directly from torrents. It pulls from [yts.to]() as well as the Popcorn Time TV API to allow users to watch most Movies and TV Shows Instantly.
+PopcornTV was a simple application that allowed an AppleTV to stream Movies and TV shows directly from torrents. It pulls from [yts.to]() as well as the Popcorn Time TV API to allow users to watch most Movies and TV Shows Instantly.
 
 This project is useful only to those running AppleTV 3 or older. <br>
 For AppleTV 4 see the [MediaChannel App](https://github.com/bugs181/AppleTV4-MediaChannel) (Coming soon!)
 
 ## How it worked
 
-PopcornTV worked by hijacking the Trailers application on the Apple TV. In order to do this effectively we changed the DNS server on the Apple TV to point to your own computer/server. This application was initially created in 24 hours as a proof of concept that you are able to stream torrents directly to an Apple TV by generating valid XML for it to read from. It has since grown into a much more full fledged application.
+PopcornTV worked by hijacking the Trailers application on the Apple TV. In order to do this effectively we changed the DNS server on the Apple TV to point to the computer/server running this app. This application was initially created in 24 hours as a proof of concept that allows streaming torrents directly to an Apple TV by generating valid XML for it to read from. It has since grown into a much more full fledged application.
 
 We pulled all of our Movies from [YTS]() by using the API that they provide. All TV shows used the [Popcorn Time TV API]()
 
@@ -18,8 +18,8 @@ We pulled all of our Movies from [YTS]() by using the API that they provide. All
 
 The modified version of PopcornTV replaces the torrent engine with the MediaChannel API. <br>
 
-*IMPORTANT*: Torrenting NO LONGER works with this application, please see the original project for that. However, it is
-entirely possible that a torrent engine may be added in at a later date which uses the MediaChannel Torrent channel.
+*IMPORTANT*: Torrenting NO LONGER works with this application, please see the original project for that.<br>
+However, it is entirely possible that a torrent engine may be added in at a later date which uses the MediaChannel Torrent channel.
  
 ## Warning
 PopcornTV streams movies and TV shows from websites that are likely not from the true copyright holders.
