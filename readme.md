@@ -1,4 +1,4 @@
-# Project Adapted PopcornTV
+# Project adapted from PopcornTV
 This project is adapted from the PopcornTV project which is now discontinued. Further work on this project will resume to make it compatible with MediaChannel API.
 
 # What was PopcornTV?
