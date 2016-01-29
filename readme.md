@@ -1,18 +1,24 @@
-# Project Discontinued
-After the legal action taken against certain members of the PopcornTime.io team I decided that it was best and safest to discontinue working on the project and move onto greener pastures. Thank you all for your continued support.
+# Project Adapted PopcornTV
+This project is adapted from the PopcornTV project which is now discontinued. Further work on this project will resume to make it compatible with MediaChannel API.
 
 # What was PopcornTV?
 
-PopcornTV was a simple application that allowed an Apple TV to play stream Movies and TV shows directly from torrents. It pulls from [yts.to]() as well as the [Popcorn Time TV API]() to allow users to watch most Movies and TV Shows Instantly.
+PopcornTV was a simple application that allowed an Apple TV to play stream Movies and TV shows directly from torrents. It pulls from [yts.to]() as well as the Popcorn Time TV API to allow users to watch most Movies and TV Shows Instantly.
 
 ## How it worked
 
 PopcornTV worked by hijacking the Trailers application on the Apple TV. In order to do this effectively we changed the DNS server on the Apple TV to point to your own computer/server. This application was initially created in 24 hours as a proof of concept that you are able to stream torrents directly to an Apple TV by generating valid XML for it to read from. It has since grown into a much more full fledged application.
 
 We pulled all of our Movies from [YTS]() by using the API that they provide. All TV shows used the [Popcorn Time TV API]()
+
+## Modified version
+
+The modified version of PopcornTV replaces the torrent engine with the MediaChannel API. 
+IMPORTANT: Torrenting NO LONGER works with this application, please see the original project for that. However, it is
+entirely possible that a torrent engine may be added in at a later date which uses the MediaChannel Torrent channel.
  
 ## Warning
-PopcornTV streams movies and TV shows from torrents
+PopcornTV streams movies and TV shows from websites that are likely not from the true copyright holders.
  
 Downloading copyrighted material may be illegal in your country. Use at your own risk.
 
